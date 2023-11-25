@@ -3,8 +3,10 @@ model = NANONETSOCR()
 
 model.set_token('REPLACE_API_KEY')
 
+
 string1 = model.convert_to_string('test.png')
 print(string1)
+
 
 print('\n\n\n')
 

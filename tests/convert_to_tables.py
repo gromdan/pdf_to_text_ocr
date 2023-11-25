@@ -1,4 +1,5 @@
 from nanonets import NANONETSOCR
+
 model = NANONETSOCR()
 
 model.set_token('REPLACE_API_KEY')
